@@ -23,7 +23,7 @@ print("Project file: %s" % pro_file)
 config = open(pro_file).readlines()
 
 # extract existing component libraries in project file
-r = re.compile("LibName\d+=([0-9a-zA-Z_\-/]*)")
+r = re.compile("LibName\d+=([0-9a-zA-Z_\-\./]*)")
 libs = [r.match(line).group(1) for line in config if r.match(line)]
 config = [line for line in config if not r.match(line)]
 
