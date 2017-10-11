@@ -2,7 +2,8 @@ EESchema-DOCLIB  Version 2.0
 #
 $CMP TL1105
 D Double Pole Single Throw (DPST) Switch
-K switch
+K Switch
+F https://www.e-switch.com/system/asset/product_line/data_sheet/144/TL1105.pdf
 $ENDCMP
 #
 #End Doc Library
