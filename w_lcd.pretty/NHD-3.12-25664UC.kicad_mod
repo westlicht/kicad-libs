@@ -42,8 +42,8 @@
   (pad "" np_thru_hole circle (at 86.2 3) (size 4 4) (drill 2.5) (layers *.Cu *.Mask))
   (pad "" np_thru_hole circle (at 3 41) (size 4 4) (drill 2.5) (layers *.Cu *.Mask))
   (pad "" np_thru_hole circle (at 86.2 41) (size 4 4) (drill 2.5) (layers *.Cu *.Mask))
-  (model ${KISYS3DMOD}/Pin_Headers.3dshapes/Pin_Header_Straight_1x20_Pitch2.54mm.wrl
-    (at (xyz 0 0 0))
+  (model ${KISYS3DMOD}/Socket_Strips.3dshapes/Socket_Strip_Straight_1x20_Pitch2.54mm.wrl
+    (at (xyz 1.755 -0.1 0))
     (scale (xyz 1 1 1))
     (rotate (xyz 0 0 0))
   )
