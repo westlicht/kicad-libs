@@ -12,6 +12,12 @@ K Logic, Shift Register, Serial Parallel
 F http://www.ti.com/lit/ds/symlink/sn74hc595.pdf
 $ENDCMP
 #
+$CMP 74HCT125
+D Quadruple Bus Buffer Gates With 3-State Outputs
+K Logic, Level Shifter, TTL
+F http://www.ti.com/lit/ds/symlink/sn74hct125.pdf
+$ENDCMP
+#
 $CMP 74HCT541
 D Octal Buffer and Line Driver with 3-State Outputs
 K Logic, Driver, Buffer
