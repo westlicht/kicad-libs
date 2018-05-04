@@ -36,4 +36,10 @@ K Logic, Driver, Buffer
 F http://www.ti.com/lit/ds/symlink/sn74hct541.pdf
 $ENDCMP
 #
+$CMP 74LV1T34
+D Single supply translating buffer
+K Logic, Buffer
+F http://www.ti.com/lit/ds/symlink/sn74lv1t34.pdf
+$ENDCMP
+#
 #End Doc Library
