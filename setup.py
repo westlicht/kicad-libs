@@ -12,7 +12,9 @@ print("Library directory: %s" % lib_dir)
 print("Project directory: %s" % pro_dir)
 
 # find project file
-pro_file = glob.glob("*.pro")
+pro_file = sys.argv[1:]
+if pro_file == []:
+    pro_file = glob.glob("*.pro")
 if pro_file == []:
     print("No project file found!")
     sys.exit(1)
