@@ -1,4 +1,4 @@
-(module TL1105T (layer F.Cu) (tedit 59D93812)
+(module TL1105T (layer F.Cu) (tedit 5C8EC73F)
   (fp_text reference REF** (at 0 0) (layer F.SilkS)
     (effects (font (size 1 1) (thickness 0.15)))
   )
@@ -13,9 +13,9 @@
   (pad 2 thru_hole circle (at -2.25 3.25) (size 2 2) (drill 1.1) (layers *.Cu *.Mask))
   (pad 4 thru_hole circle (at 2.25 3.25) (size 2 2) (drill 1.1) (layers *.Cu *.Mask))
   (pad 3 thru_hole circle (at 2.25 -3.25) (size 2 2) (drill 1.1) (layers *.Cu *.Mask))
-  (model ${KISYS3DMOD}/Buttons_Switches_THT.3dshapes/SW_PUSH_6mm_h5mm.wrl
-    (at (xyz 0.09180000000000001 0.127 0))
-    (scale (xyz 0.3937 0.3937 0.3937))
+  (model ${KISYS3DMOD}/Button_Switch_THT.3dshapes/SW_PUSH_6mm_H5mm.wrl
+    (offset (xyz 2.3317 3.2258 0))
+    (scale (xyz 1 1 1))
     (rotate (xyz 0 0 90))
   )
 )

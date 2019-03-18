@@ -1,3 +1,14 @@
 EESchema-DOCLIB  Version 2.0
 #
+$CMP R-78E-1.0
+D 1.0 Amp DCDC Switching Regulator
+K Converter, DCDC, Switching, Regulator
+F https://www.recom-power.com/pdf/Innoline/R-78Exx-1.0.pdf
+$ENDCMP
+#
+$CMP STMPS2141
+D Single Channel Power Switch
+F https://www.st.com/resource/en/datasheet/stmps2141.pdf
+$ENDCMP
+#
 #End Doc Library

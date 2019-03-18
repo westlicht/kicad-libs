@@ -1,4 +1,4 @@
-EESchema-LIBRARY Version 2.3
+EESchema-LIBRARY Version 2.4
 #encoding utf-8
 #
 # 6N137
@@ -9,9 +9,8 @@ F1 "6N137" 0 -250 50 H V C CNN
 F2 "" 0 -100 29 H I C CNN
 F3 "" 0 0 60 H I C CNN
 $FPLIST
- DIP-8_W7.62mm
- DIP-8_W7.62mm_Socket
  SMDIP-8_W9.53mm
+ DIP-8_W7.62mm*
 $ENDFPLIST
 DRAW
 C 120 50 5 0 1 0 N
