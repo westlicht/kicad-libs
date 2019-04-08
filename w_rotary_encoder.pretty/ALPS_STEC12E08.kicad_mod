@@ -1,4 +1,4 @@
-(module ALPS_STEC12E08 (layer F.Cu) (tedit 59F640CB)
+(module ALPS_STEC12E08 (layer F.Cu) (tedit 5CAA66FC)
   (tags "rotary, encoder, ALPS")
   (fp_text reference R-ENC? (at 0 -9.1) (layer F.SilkS)
     (effects (font (size 1 1) (thickness 0.2)))
@@ -28,4 +28,9 @@
   (pad SW1 thru_hole circle (at -2.5 -7) (size 1.75 1.75) (drill 1.1) (layers *.Cu *.Mask))
   (pad body thru_hole oval (at 6.2 0) (size 4 4) (drill 2.5) (layers *.Cu *.Mask))
   (pad body thru_hole oval (at -6.2 0) (size 4 4) (drill 2.5) (layers *.Cu *.Mask))
+  (model ${KIPRJMOD}/kicad-libs/packages3d/ALPS_STEC12E08.wrl
+    (at (xyz 0 0 0))
+    (scale (xyz 1 1 1))
+    (rotate (xyz 0 0 0))
+  )
 )

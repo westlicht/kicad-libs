@@ -1,4 +1,4 @@
-(module PJS008U-3000-0 (layer F.Cu) (tedit 59DFE05A)
+(module PJS008U-3000-0 (layer F.Cu) (tedit 5CAA7595)
   (descr https://www.yamaichi.de/uploads/media/PJS008U-3000.pdf)
   (tags "sdcard connector")
   (fp_text reference REF** (at 0 5.1) (layer F.SilkS)
@@ -40,4 +40,9 @@
   (pad 8 thru_hole circle (at 3.85 -1.1) (size 1.4 1.4) (drill 0.7) (layers *.Cu *.Mask))
   (pad 9 thru_hole circle (at -4.3 3.17) (size 2 2) (drill 0.9) (layers *.Cu *.Mask))
   (pad 9 thru_hole circle (at 4.3 3.17) (size 2 2) (drill 0.9) (layers *.Cu *.Mask))
+  (model ${KIPRJMOD}/kicad-libs/packages3d/PJS008U-3000-0.WRL
+    (offset (xyz 0 -2.75 0))
+    (scale (xyz 393 393 393))
+    (rotate (xyz -90 0 0))
+  )
 )
