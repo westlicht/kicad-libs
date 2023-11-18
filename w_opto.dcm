@@ -1,9 +1,0 @@
-EESchema-DOCLIB  Version 2.0
-#
-$CMP 6N137
-D 6N137, DIP8, High Speed Optocoupler, TTL Compatible, CTR 18%
-K High Speed Optocoupler
-F https://www.vishay.com/docs/84732/6n137.pdf
-$ENDCMP
-#
-#End Doc Library

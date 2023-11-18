@@ -1,9 +1,0 @@
-EESchema-DOCLIB  Version 2.0
-#
-$CMP DAC8568A
-D Octal-Channel Digital-to-Analog Converter
-K DAC
-F http://www.ti.com/lit/ds/symlink/dac8568.pdf
-$ENDCMP
-#
-#End Doc Library
