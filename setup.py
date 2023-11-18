@@ -12,10 +12,10 @@ print("Project directory: %s" % pro_dir)
 # write sym-lib-table
 table = []
 table.append("(sym_lib_table")
-for lib in glob.glob(os.path.join(lib_dir, '*.lib')):
+for lib in glob.glob(os.path.join(lib_dir, '*.kicad_sym')):
     lib_name = os.path.splitext(os.path.basename(lib))[0]
     lib_path = os.path.relpath(lib, pro_dir)
-    table.append("  (lib (name %s)(type Legacy)(uri ${KIPRJMOD}/%s)(options \"\")(descr \"\"))" % (lib_name, lib_path))
+    table.append("  (lib (name %s)(type KiCad)(uri ${KIPRJMOD}/%s)(options \"\")(descr \"\"))" % (lib_name, lib_path))
 table.append(")")
 sym_lib_table = "\n".join(table)
 open("sym-lib-table", "w").write(sym_lib_table)
