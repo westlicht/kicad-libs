@@ -19,8 +19,14 @@ F https://www.thonk.co.uk/shop/3-5mm-jacks/
 $ENDCMP
 #
 $CMP PJ366ST
-D 2-pin audio jack receptable (stereo/TS connector) with switching contact
-K audio jack receptable stereo headphones phone TS connector
+D 2-pin audio jack receptable (mono/TS connector) with switching contact
+K audio jack receptable mono headphones phone TS connector
+F https://www.thonk.co.uk/shop/3-5mm-jacks/
+$ENDCMP
+#
+$CMP PJ398SM
+D 2-pin audio jack receptable (mono/TS connector) with switching contact
+K audio jack receptable mono headphones phone TS connector
 F https://www.thonk.co.uk/shop/3-5mm-jacks/
 $ENDCMP
 #

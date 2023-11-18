@@ -1,4 +1,4 @@
-(module w_led:WP115VEGW (layer F.Cu) (tedit 59DBED90)
+(module WP115VEGW (layer F.Cu) (tedit 5C8EC5BF)
   (descr WP115VEGW)
   (tags LED)
   (fp_text reference REF** (at 0 2.75) (layer F.SilkS)
@@ -19,9 +19,9 @@
   (pad 1 thru_hole rect (at -2 0) (size 1.4 1.4) (drill 0.9) (layers *.Cu *.Mask))
   (pad 2 thru_hole circle (at 0 0) (size 1.4 1.4) (drill 0.9) (layers *.Cu *.Mask))
   (pad 3 thru_hole circle (at 2 0) (size 1.4 1.4) (drill 0.9) (layers *.Cu *.Mask))
-  (model ${KISYS3DMOD}/LEDs.3dshapes/LED_D3.0mm-3.wrl
-    (at (xyz -0.081633 0 0))
-    (scale (xyz 0.312 0.312 0.312))
+  (model ${KISYS3DMOD}/LED_THT.3dshapes/LED_D3.0mm-3.wrl
+    (offset (xyz -2 0 0))
+    (scale (xyz 0.8 0.8 0.8))
     (rotate (xyz 0 0 0))
   )
 )
