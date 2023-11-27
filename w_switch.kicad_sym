@@ -9,7 +9,7 @@
     (property "Footprint" "" (at -2.54 0 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Datasheet" "https://www.e-switch.com/system/asset/product_line/data_sheet/144/TL1105.pdf" (at -2.54 0 0)
+    (property "Datasheet" "https://www.e-switch.com/system/asset/product_line/data_sheet/144/TL1105.pdf" (at 0 -9.525 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "ki_keywords" "Switch" (at 0 0 0)
